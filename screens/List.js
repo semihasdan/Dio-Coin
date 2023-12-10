@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Text, ScrollView, StyleSheet, View, RefreshControl, TextInput, Image, TouchableOpacity, Dimensions } from 'react-native';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import Logo from './my-logo.png';
-;
+
 
 const List = ({ }) => {
     const [data, setData] = useState([]); // veri
@@ -49,9 +49,10 @@ const List = ({ }) => {
 
     return (
         <>
-            <View style={styles.container}><View style={styles.tab}>
-                <Image source={Logo} style={styles.logo} />
-                <SearchBar searchData={searchData} /></View>
+            <View style={styles.container}>
+                <View style={styles.tab}>
+                    <Image source={Logo} style={styles.logo} />
+                    <SearchBar searchData={searchData} /></View>
                 <ScrollView style={styles.scroll} refreshControl={<RefreshControl refreshing={refreshing} onRefresh={onRefresh} />}>
 
                     {filteredData.map((item) => (
@@ -101,11 +102,13 @@ const searchBarWidth = screenWidth > 600 ? 300 : 150;
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        paddingTop: 50,
+        paddingTop: 0,
         alignItems: 'center',
         paddingVertical: 12,
         backgroundColor: '#0d0d1e',
+
     },
+
     tab: {
         flexDirection: 'row',
         justifyContent: 'space-between',

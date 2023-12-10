@@ -5,6 +5,7 @@ import Header from './Header';
 const COINBASE_API_ENDPOINT = 'https://api.coinbase.com/v2/exchange-rates';
 
 const screenWidth = Dimensions.get('window').width;
+const screenHeight = Dimensions.get('window').height;
 
 const CurrencyConverterScreen = () => {
     const [currencyRates, setCurrencyRates] = useState({});
@@ -31,7 +32,6 @@ const CurrencyConverterScreen = () => {
     return (
         <View style={styles.container}>
             <Header />
-
             <View style={styles.picker}>
                 <Picker
                     selectedValue={fromCurrency}
@@ -104,16 +104,18 @@ const styles = StyleSheet.create({
     container: {
         paddingHorizontal: 0.05 * screenWidth,
         flex: 1,
-        paddingTop: 60,
+        paddingTop: 0,
         alignItems: 'center',
         paddingVertical: 12,
         backgroundColor: '#0d0d1e',
     },
+
     picker: {
-        paddingTop: 10,
+        paddingTop: 20,
         flexDirection: 'row',
         justifyContent: 'space-between',
         width: '100%',
+
     },
     pickerStyle: {
         flex: 1,

@@ -16,6 +16,7 @@ const styles = StyleSheet.create({
         height: 40,
         marginRight: `auto`,
         padding: 10,
+        paddingTop: 80,
 
     },
 })
