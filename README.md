@@ -1,2 +1,1 @@
-Crypto Companion, dijital varlıkların dünyası hakkında bilgi sahibi olmak için basit ama etkili bir çözüm isteyenler için mükemmel olan, başvurulacak kripto para birimi izleme uygulamanızdır. Kullanıcı dostu arayüzü ve gerçek zamanlı verileriyle Crypto Companion, hareket halindeyken piyasa hareketlerinden haberdar olmanıza ve bilinçli kararlar almanıza yardımcı olur.
 https://play.google.com/store/apps/details?id=com.dionysos.diocoin
