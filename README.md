@@ -8,8 +8,6 @@ https://play.google.com/store/apps/details?id=com.dionysos.diocoin
 ## Features
 
 - **Real-time Cryptocurrency Prices**: Fetches and displays the current prices of various cryptocurrencies.
-- **Favorite List**: Add your favorite cryptocurrencies to a watchlist for quick access.
-- **Price Alerts**: Set up alerts to get notified when a cryptocurrency reaches a specific price.
 - **User-friendly Interface**: Easy-to-navigate interface with a clean and modern design.
 - **API Integration**: Integrated with a reliable cryptocurrency API to provide up-to-date information.
 
@@ -35,5 +33,3 @@ https://play.google.com/store/apps/details?id=com.dionysos.diocoin
 
 1. **Launch the App**: Open the Dio-Coin app on your Android device.
 2. **Browse Cryptocurrencies**: Browse the list of available cryptocurrencies with their current prices.
-3. **Add to Favorites**: Click on the star icon to add a cryptocurrency to your favorites list.
-4. **Set Price Alerts**: Set up alerts to get notified when the price of a cryptocurrency reaches your specified threshold.
